@@ -13,7 +13,7 @@ status = ['Player Unknown\'s Battlegrounds (PUBG)',
           'Call of Duty: Warzone',
           'Business Tour',
           'Sea of Thieves',
-          'Grand Theft Auto V']
+          'Grand Theft Auto V',]
 
 
 
