@@ -13,9 +13,7 @@ status = ['Player Unknown\'s Battlegrounds (PUBG)',
           'Call of Duty: Warzone',
           'Business Tour',
           'Sea of Thieves',
-          'Grand Theft Auto V',
-          'Trần Quang Nhựt',
-          'Trần Đỗ Việt Hoàng',]
+          'Grand Theft Auto V']
 
 
 
@@ -52,4 +50,4 @@ async def ping(ctx):
 
 
 
-bot.run(getenv('TOKEN'))
+bot.run(getenv('TOKEN')
