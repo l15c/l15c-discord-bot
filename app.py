@@ -2,8 +2,6 @@ from discord.ext import commands,tasks
 from random import choice
 import discord
 
-TOKEN = "ODU5Mzk3MzUwNjg5OTk2ODEw.YNsGJw.ACPAsF32Dk-TAogy7Dz70focwds"
-
 bot = commands.Bot(command_prefix='#')
 bot.load_extension("cogs.musicCog")
 #bot.load_extension("cogs.cleanCog")
@@ -53,4 +51,4 @@ async def ping(ctx):
 
 
 
-bot.run(TOKEN)
+bot.run(getenv('TOKEN'))
