@@ -50,4 +50,4 @@ async def ping(ctx):
 
 
 
-bot.run(getenv('TOKEN')
+bot.run(getenv('TOKEN'))
