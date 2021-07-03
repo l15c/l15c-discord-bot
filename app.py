@@ -1,7 +1,8 @@
 from discord.ext import commands,tasks
 from random import choice
 import discord
-from os import getenv
+
+TOKEN = "ODU5Mzk3MzUwNjg5OTk2ODEw.YNsGJw.ACPAsF32Dk-TAogy7Dz70focwds"
 
 bot = commands.Bot(command_prefix='#')
 bot.load_extension("cogs.musicCog")
@@ -13,7 +14,9 @@ status = ['Player Unknown\'s Battlegrounds (PUBG)',
           'Call of Duty: Warzone',
           'Business Tour',
           'Sea of Thieves',
-          'Grand Theft Auto V',]
+          'Grand Theft Auto V',
+          'Trần Quang Nhựt',
+          'Trần Đỗ Việt Hoàng',]
 
 
 
@@ -50,4 +53,4 @@ async def ping(ctx):
 
 
 
-bot.run(getenv('TOKEN'))
+bot.run(TOKEN)
