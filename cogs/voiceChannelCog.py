@@ -12,8 +12,9 @@ class Activities(commands.Cog):
     async  def on_voice_state_update(self, member, before, after):
         if member.bot:
             return
-        if before.channel.id == after.channel.id:
-            return
+        if after.channel is not None and before.channel is not None:
+            if before.channel.id == after.channel.id:
+                return
         if after.channel is not None:
             if after.channel.name =="🔑・tạo phòng":
                 if before.channel is not None:
