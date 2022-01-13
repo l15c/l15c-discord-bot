@@ -6,7 +6,7 @@ from os import getenv
 bot = commands.Bot(command_prefix='#')
 bot.load_extension("cogs.musicCog")
 #bot.load_extension("cogs.cleanCog")
-bot.load_extension("cogs.voiceChannelCog")
+#bot.load_extension("cogs.voiceChannelCog")
 
 status = ['Player Unknown\'s Battlegrounds (PUBG)',
           'League of Legends',
